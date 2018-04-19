@@ -4,7 +4,7 @@ Documentation     A resource file with reusable keywords and variables.
 Library           SeleniumLibrary
 
 *** Variables ***
-${SERVER}         www.amazon.com
+${SERVER}         login.vivo.com.br/loginmarca/appmanager/marca/publico#
 ${BROWSER}        Chrome
 ${DELAY}          0s
 ${PAGE URL}       https://${SERVER}/
