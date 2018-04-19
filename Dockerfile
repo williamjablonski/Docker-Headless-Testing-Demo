@@ -26,9 +26,9 @@ RUN GECKODRIVER_VERSION=`wget --no-verbose --output-document - https://api.githu
     chmod +x /opt/geckodriver && \
     ln -fs /opt/geckodriver /usr/local/bin/geckodriver
 
-WORKDIR /app
+WORKDIR /robot-tests
 
-COPY . /app
+COPY . /robot-tests
 
 RUN chmod +x ./run_all_tests.sh
 RUN chmod +x ./run_single_test.sh
